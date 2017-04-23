@@ -171,6 +171,10 @@ return [
          */
         Cartalyst\Sentinel\Laravel\SentinelServiceProvider::class,
         /*
+         * FORMS & HTML
+         */
+        Collective\Html\HtmlServiceProvider::class,
+        /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
@@ -232,5 +236,10 @@ return [
         'Activation' => Cartalyst\Sentinel\Laravel\Facades\Activation::class,
         'Reminder'   => Cartalyst\Sentinel\Laravel\Facades\Reminder::class,
         'Sentinel'   => Cartalyst\Sentinel\Laravel\Facades\Sentinel::class,
+        /*
+         * FORMS & HTML
+         */
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
     ]
 ];
