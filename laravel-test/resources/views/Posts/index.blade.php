@@ -20,3 +20,6 @@
         </div>
     </div>
 @stop
+@section('script')
+    <script type="javascript" src="{{ asset('js/posts/angular.js') }}"></script>
+@stop

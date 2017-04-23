@@ -12,7 +12,7 @@
     </head>
     <body>
     @yield('content')
-    <script type="javascript" src="{{ asset('js/app.js') }}}"></script>
+    <script type="javascript" src="{{ asset('js/app.js') }}"></script>
     <!-- Angular 1.3.12 -->
     <script type="javascript" src="{{ asset('js/angular/angular.min.js') }}"></script>
     @yield('script')
