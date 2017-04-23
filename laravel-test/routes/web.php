@@ -13,3 +13,9 @@
 Route::get ( '/', function () {
     return view ( 'welcome' );
 } );
+Route::group(['prefix' => 'angular'], function() {
+   Route::get('/',[
+      'as' => 'postApp.index',
+       'uses' => 'PostsAppController@index'
+   ]);
+});
